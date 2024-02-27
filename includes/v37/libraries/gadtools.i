@@ -26,6 +26,10 @@ LIBRARIES_GADTOOLS_I	SET	1
 	INCLUDE 'intuition/intuition.i'
 	ENDC
 
+	IFND INTUITION_IOBSOLETE_I
+	INCLUDE 'intuition/iobsolete.i'
+	ENDC
+
 *------------------------------------------------------------------------*
 
 *	The kinds (almost classes) of gadgets in the toolkit.  Use these

@@ -167,8 +167,8 @@ FRAMEF_SPECIFY	EQU (1)
 
 
 * Include obsolete identifiers:
-	IFND	INTUITION_IOBSOLETE_I
-	INCLUDE "intuition/iobsolete.i"
-	ENDC
+*	IFND	INTUITION_IOBSOLETE_I
+*	INCLUDE "intuition/iobsolete.i"
+*	ENDC
 
     ENDC

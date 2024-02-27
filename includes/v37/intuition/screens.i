@@ -341,8 +341,8 @@ SHANGHAI	EQU	$0001	; put workbench windows on pub screen
 POPPUBSCREEN	EQU	$0002	; pop pub screen to front when visitor opens
 
 * Include obsolete identifiers:
-	IFND	INTUITION_IOBSOLETE_I
-	INCLUDE "intuition/iobsolete.i"
-	ENDC
+*	IFND	INTUITION_IOBSOLETE_I
+*	INCLUDE "intuition/iobsolete.i"
+*	ENDC
 
 	ENDC

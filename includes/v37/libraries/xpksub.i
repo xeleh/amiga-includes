@@ -12,7 +12,7 @@ XPK_XPKSUB_I	SET	1
 **
 
 	IFND	XPK_XPK_I
-	INCLUDE "xpk/xpk.i"
+	INCLUDE "libraries/xpk.i"
 	ENDC
 
 **************************************************************************

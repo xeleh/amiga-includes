@@ -1,0 +1,15 @@
+	IFND	LIBRARIES_TRANSLATOR_LIB_I
+LIBRARIES_TRANSLATOR_LIB_I	SET	1
+
+_LVOTranslate	EQU	-30
+
+CALLTRANS	MACRO
+	move.l	_TranslatorBase,a6
+	jsr	_LVO\1(a6)
+	ENDM
+
+TRANSNAME	MACRO
+	dc.b	'translator.library',0
+	ENDM
+
+	ENDC

@@ -1,0 +1,26 @@
+	IFND	WORKBENCH_ICON_LIB_I
+WORKBENCH_ICON_LIB_I	SET	1
+
+_LVOFreeFreeList	EQU	-54
+_LVOAddFreeList	EQU	-72
+_LVOGetDiskObject	EQU	-78
+_LVOPutDiskObject	EQU	-84
+_LVOFreeDiskObject	EQU	-90
+_LVOFindToolType	EQU	-96
+_LVOMatchToolValue	EQU	-102
+_LVOBumpRevision	EQU	-108
+_LVOGetDefDiskObject	EQU	-120
+_LVOPutDefDiskObject	EQU	-126
+_LVOGetDiskObjectNew	EQU	-132
+_LVODeleteDiskObject	EQU	-138
+
+CALLICON	MACRO
+	move.l	_IconBase,a6
+	jsr	_LVO\1(a6)
+	ENDM
+
+ICONNAME	MACRO
+	dc.b	'icon.library',0
+	ENDM
+
+	ENDC

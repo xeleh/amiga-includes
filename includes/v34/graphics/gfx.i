@@ -10,6 +10,10 @@ GRAPHICS_GFX_I	SET	1
 **	    All Rights Reserved
 **
 
+    IFND EXEC_TYPES_I
+    INCLUDE "exec/types.i"
+    ENDC !EXEC_TYPES_I
+
 BITSET	    equ $8000
 BITCLR	    equ 0
 AGNUS	    equ 1

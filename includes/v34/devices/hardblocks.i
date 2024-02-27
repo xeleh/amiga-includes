@@ -11,6 +11,10 @@ DEVICES_HARDBLOCKS_I	SET	1
 **	    All Rights Reserved
 **
 
+    IFND EXEC_TYPES_I
+    INCLUDE "exec/types.i"
+    ENDC !EXEC_TYPES_I
+
 ;---------------------------------------------------------------------
 ;
 ;	This file describes blocks of data that exist on a hard disk

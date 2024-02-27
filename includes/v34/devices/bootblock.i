@@ -10,6 +10,10 @@ DEVICES_BOOTBLOCK_I	SET	1
 **	    All Rights Reserved
 **
 
+	IFND EXEC_TYPES_I
+	INCLUDE "exec/types.i"
+	ENDC !EXEC_TYPES_I
+
  STRUCTURE BB,0
 	STRUCT	BB_ID,4		* 4 character identifier
 	LONG	BB_CHKSUM	* boot block checksum (balance)

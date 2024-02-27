@@ -10,6 +10,10 @@ DEVICES_PRTGFX_I	SET	1
 **	    All Rights Reserved
 **
 
+    IFND EXEC_TYPES_I
+    INCLUDE "exec/types.i"
+    ENDC !EXEC_TYPES_I
+
 PCMYELLOW	EQU	0		; byte index for yellow
 PCMMAGENTA	EQU	1		; byte index for magenta
 PCMCYAN		EQU	2		; byte index for cyan

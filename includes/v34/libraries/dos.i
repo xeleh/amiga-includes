@@ -10,10 +10,9 @@ LIBRARIES_DOS_I SET	1
 **	    All Rights Reserved
 **
 
-*      IFND EXEC_TYPES_I
-*      INCLUDE "exec/types.i"
-*      ENDC
-
+      IFND EXEC_TYPES_I
+      INCLUDE "exec/types.i"
+      ENDC
 
 DOSNAME	    MACRO
       DC.B  'dos.library',0

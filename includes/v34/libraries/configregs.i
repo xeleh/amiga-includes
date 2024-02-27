@@ -20,6 +20,9 @@ LIBRARIES_CONFIGREGS_I	SET	1
 ** actually stored in one's complement form (except for the
 ** er_type field).
 
+    IFND EXEC_TYPES_I
+    INCLUDE "exec/types.i"
+    ENDC !EXEC_TYPES_I
 
  STRUCTURE ExpansionRom,0
     UBYTE	er_Type

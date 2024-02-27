@@ -10,6 +10,10 @@ EXEC_NODES_I	SET	1
 **	    All Rights Reserved
 **
 
+    IFND EXEC_TYPES_I
+    INCLUDE "exec/types.i"
+    ENDC !EXEC_TYPES_I
+
 *----------------------------------------------------------------
 *
 *   List Node Structure

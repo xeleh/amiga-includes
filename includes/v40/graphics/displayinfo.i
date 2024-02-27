@@ -154,8 +154,8 @@ DISPLAYNAMELEN		equ 32
 	STRUCT	vec_reserved,8
     LABEL vec_SIZEOF
 
-    IFND	GRAPHICS_MODEID_I
-    include 'graphics/modeid.i'
-    ENDC
+*    IFND	GRAPHICS_MODEID_I
+*    include 'graphics/modeid.i'
+*    ENDC
 
     ENDC	; GRAPHICS_DISPLAYINFO_I

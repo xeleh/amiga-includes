@@ -558,8 +558,8 @@ SB_SCREEN_BITMAP	EQU	1
 SB_COPY_BITMAP		EQU	2
 
 * Include obsolete identifiers:
-	IFND	INTUITION_IOBSOLETE_I
-	INCLUDE "intuition/iobsolete.i"
-	ENDC
+*	IFND	INTUITION_IOBSOLETE_I
+*	INCLUDE "intuition/iobsolete.i"
+*	ENDC
 
 	ENDC

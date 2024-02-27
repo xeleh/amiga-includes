@@ -167,9 +167,12 @@ IDS_INDETERMINANT EQU IDS_INDETERMINATE
     LONG	impf_FrameFlags
 
 ; Make do with the dimensions of FrameBox provided.
+	IFND FRAMEB_SPECIFY
 FRAMEB_SPECIFY	EQU (0)
+	ENDC
+	IFND FRAMEF_SPECIFY
 FRAMEF_SPECIFY	EQU (1)
-
+	ENDC
 
 * IM_DRAW, IM_DRAWFRAME
  STRUCTURE impDraw,4		; starts with ULONG MethodID
@@ -203,8 +206,8 @@ FRAMEF_SPECIFY	EQU (1)
 
 
 * Include obsolete identifiers:
-	IFND	INTUITION_IOBSOLETE_I
-	INCLUDE "intuition/iobsolete.i"
-	ENDC
+*	IFND	INTUITION_IOBSOLETE_I
+*	INCLUDE "intuition/iobsolete.i"
+*	ENDC
 
     ENDC

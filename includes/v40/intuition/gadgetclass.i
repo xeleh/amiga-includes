@@ -312,8 +312,8 @@ GMRF_PREVACTIVE	EQU $0020
 				; during window resizing.
 
 * Include obsolete identifiers:
-	IFND	INTUITION_IOBSOLETE_I
-	INCLUDE "intuition/iobsolete.i"
-	ENDC
+*	IFND	INTUITION_IOBSOLETE_I
+*	INCLUDE "intuition/iobsolete.i"
+*	ENDC
 
 	ENDC

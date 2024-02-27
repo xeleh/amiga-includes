@@ -3,10 +3,9 @@
    IFND LIBRARIES_DOS_I
 LIBRARIES_DOS_I            SET      1
 
-*      IFND EXEC_TYPES_I
-*      INCLUDE "exec/types.i"
-*      ENDC
-
+      IFND EXEC_TYPES_I
+      INCLUDE "exec/types.i"
+      ENDC
 
 DOSNAME     MACRO
       DC.B  'dos.library',0

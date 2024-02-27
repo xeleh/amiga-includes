@@ -22,6 +22,10 @@
         IFND    LIBRARIES_CONFIGREGS_I
 LIBRARIES_CONFIGREGS_I  SET     1
 
+    IFND EXEC_TYPES_I
+    INCLUDE "exec/types.i"
+    ENDC !EXEC_TYPES_I
+
 ** Expansion boards are actually organized such that only one nibble per
 ** word (16 bits) are valid information.  This table is structured
 ** as LOGICAL information.  This means that it never corresponds

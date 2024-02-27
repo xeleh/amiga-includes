@@ -46,10 +46,10 @@ WBKICK          EQU     7
     STRUCT      dd_NewWindow,nw_SIZE    ; args to open window
     LONG        dd_CurrentX             ; current x coordinate of origin
     LONG        dd_CurrentY             ; current y coordinate of origin
-    LABEL       dd_SIZEOF
+    LABEL       dd_SIZEOF_2
 
 ; the amount of DrawerData actually written to disk
-DRAWERDATAFILESIZE      EQU (dd_SIZEOF)
+DRAWERDATAFILESIZE      EQU (dd_SIZEOF_2)
 
 
  STRUCTURE DiskObject,0

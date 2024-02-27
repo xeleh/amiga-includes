@@ -6,6 +6,9 @@ GRAPHICS_GELS_I SET 1
 *                                                                   *
 *********************************************************************
 
+    IFND EXEC_TYPES_I
+    INCLUDE "exec/types.i"
+    ENDC !EXEC_TYPES_I
 
 *------ VS_vSflags ---------------------------------------------------
 

@@ -6,6 +6,10 @@ GRAPHICS_COPPER_I SET   1
 *               copper.i                                           *
 ********************************************************************
 
+    IFND EXEC_TYPES_I
+    INCLUDE "exec/types.i"
+    ENDC !EXEC_TYPES_I
+
 COPPER_MOVE equ 0       /* pseude opcode for move #XXXX,dir */
 COPPER_WAIT equ 1        /* pseudo opcode for wait y,x */
 CPRNXTBUF   equ 2       /* continue processing with next buffer */

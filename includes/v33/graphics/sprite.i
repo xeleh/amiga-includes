@@ -5,6 +5,10 @@ GRAPHICS_SPRITE_I  SET 1
 *               sprite.h                                          *
 ********************************************************************
 
+    IFND EXEC_TYPES_I
+    INCLUDE "exec/types.i"
+    ENDC !EXEC_TYPES_I
+
    STRUCTURE   SimpleSprite,0
    APTR        ss_posctldata
    WORD        ss_height

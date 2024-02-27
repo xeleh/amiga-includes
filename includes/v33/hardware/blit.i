@@ -11,6 +11,10 @@
    IFND  HARDWARE_BLIT_I
 HARDWARE_BLIT_I   SET   1
 
+    IFND EXEC_TYPES_I
+    INCLUDE "exec/types.i"
+    ENDC !EXEC_TYPES_I
+
    STRUCTURE bltnode,0
    LONG  bn_n
    LONG  bn_function

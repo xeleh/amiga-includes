@@ -18,6 +18,14 @@ DEVICES_CONUNIT_I       EQU     1
    INCLUDE  "devices/keymap.i"
    ENDC
 
+   IFND    DEVICES_INPUTEVENT_I
+   INCLUDE "devices/inputevent.i"
+   ENDC
+
+   IFND    DEVICES_CONSOLE_I
+   INCLUDE "devices/console.i"
+   ENDC
+
 PMB_ASM     EQU   M_LNM+1     ; internal storage bit for AS flag
 PMB_AWM     EQU   PMB_ASM+1   ; internal storage bit for AW flag
 MAXTABS     EQU   80

@@ -1,3 +1,11 @@
+    IFND EXEC_TYPES_I
+    INCLUDE "exec/types.i"
+    ENDC !EXEC_TYPES_I
+
+    IFND EXEC_FUNCDEF_I
+    INCLUDE "exec/funcdef.i"
+    ENDC !EXEC_FUNCDEF_I
+
 *** This file generated on Mon Sep 29 18:13:01 1986
 *** $Header: gen-lib.ml,v 33.1 86/03/18 11:47:40 neil Exp $
 *** DO NOT EDIT: FILE BUILT AUTOMATICALLY
